@@ -27,7 +27,6 @@ padding: 60px 20px;
 }
 .seguros-item ul{
   grid-column: 1/-1 ;
-  padding-left: 0;
   margin-bottom: 32px;
 }
 .seguros-item li{
