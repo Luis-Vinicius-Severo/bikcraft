@@ -17,6 +17,8 @@ margin-right: auto;
   color: var(--cor-p5);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 
 }
 .botao:hover{
@@ -95,5 +97,15 @@ margin-right: auto;
     font-size: 1rem;
     text-transform: lowercase;
     font-weight: 400px;
+  }
+ }
+
+
+ @media (max-width: 600px){
+  .form{
+    grid-template-columns: 1fr;
+  }
+  .form .col-2{
+    grid-column: 1;
   }
  }
