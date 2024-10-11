@@ -7,6 +7,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
+  background: url(../../img/dec/bottom-left.svg) no-repeat bottom 20px left ;
 }
 
 #seguros .seguros{
@@ -59,5 +60,6 @@ padding-top: 0px;
 @media(max-width: 800px){
   .seguros{
     grid-template-columns: 1fr;
+    background: var(--cor-11);
   }
 }
