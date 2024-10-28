@@ -3,10 +3,12 @@
 @import "../css/utilidades/cores.css";
 @import "../css/global/header.css";
 @import "../css/global/footer.css";
+@import "../css/utilidades/animacao.css";
 
 /* utilidades */
 @import "../css/utilidades/componentes.css";
 @import "../css/utilidades/formulario.css";
+
 /* Home */
 @import "../css/home/introducao.css";
 @import "../css/home/tecnologia.css";

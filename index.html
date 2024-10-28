@@ -36,16 +36,16 @@
     <main class="introducao-bg">
       <div class="introducao container">
         <div class="introducao-conteudo">
-          <h1 class="font-1-xxl cor-0">
+          <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">
             Bicicletas feitas sob medidas<span class="cor-p1">.</span>
           </h1>
-          <p class="font-2-l cor-5">
+          <p class="font-2-l cor-5 fadeInDown" data-anime="400">
             Bicicletras elétricas de alta precisão e quailidade, feitas sob
             medida para você. Explore o mundo na sua velocidade com a bikecraft.
           </p>
-          <a class="botao" href="./bicicletas.html">Escolha a sua</a>
+          <a class="botao fadeInDown" data-anime="600" href="./bicicletas.html">Escolha a sua</a>
         </div>
-        <picture>
+        <picture data-anime="800" class="fadeInDown">
           <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
           <img src="../img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta" />
         </picture>
@@ -58,7 +58,7 @@
       </h2>
 
       <ul>
-        <li>
+        <li class="fadeInDown" data-anime="500">
           <a href="./bicicletas/magic.html">
             <img src="../img/bicicletas/magic-home.jpg" width="920" height="1040" alt="Bicicleta preta" />
             <h3 class="font-1-xl">Magic Might</h3>
@@ -66,7 +66,7 @@
           </a>
         </li>
 
-        <li>
+        <li class="fadeInDown" data-anime="600">
           <a href="./bicicletas/nimbus.html">
             <img
               src="../img/bicicletas/nimbus-home.jpg"  width="920" height="1040"
@@ -77,7 +77,7 @@
           </a>
         </li>
 
-        <li>
+        <li class="fadeInDown" data-anime="700">
           <a href="./bicicletas/nebula.html">
             <img
               src="../img/bicicletas/nebula-home.jpg"  width="920" height="1040"
@@ -184,7 +184,7 @@
             <li>Suporte 08h às 18h</li>
             <li>Cobertura estadual</li>
           </ul>
-          <a class="botao secundario" href="./orcamento.html">Inscreva-se</a>
+          <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
         </div>
 
         <div class="seguros-item">
@@ -201,7 +201,7 @@
             <li>Desconto em parceiros</li>
             <li>Acesso ao Clube bikcraft</li>
           </ul>
-          <a class="botao" href="./orcamento.html">Inscreva-se</a>
+          <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
         </div>
       </div>
     </article>
@@ -249,6 +249,7 @@
       </div>
     </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
   </body>
 </html>
